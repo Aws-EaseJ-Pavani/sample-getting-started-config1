@@ -9,7 +9,7 @@ app:
   version: "24c3f89f-fd24-42ff-9dbd-70dee8055f15"
   # Set the Maven coordinates of the Maven artifact to deploy for the
   # "Deploy, and run" scenario.
-  # maven:
+  # maven: 
   #   groupId: org.apache.commons
   #   artifactId: commons-csv
   #   version: 1.14.1
