@@ -6,14 +6,14 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run"
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  version: "24c3f89f-fd24-42ff-9dbd-70dee8055f15"
   # Set the Maven coordinates of the Maven artifact to deploy for the
   # "Deploy, and run" scenario.
-  maven:
-    groupId: org.apache.commons
-    artifactId: commons-csv
-    version: 1.14.1
-    type: jar
+  # maven:
+  #   groupId: org.apache.commons
+  #   artifactId: commons-csv
+  #   version: 1.14.1
+  #   type: jar
   # Set minimum and maximum number of instances of the application.
   # If the minimum and maximum values are different, the service scales the
   # instances up and down based on the CPU utilization.
@@ -71,5 +71,5 @@ app:
   # preferred way is to provide the crn value as the service instance names
   # can change and might not be unique.
   services:
-    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-09901713ab317ecfa
+    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-0fd3e18414c8b3d06
       #  type: db2
