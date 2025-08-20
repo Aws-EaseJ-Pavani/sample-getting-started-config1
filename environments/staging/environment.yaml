@@ -25,7 +25,7 @@ app:
     min: 1
     # The maximum number of instances. Cannot be less than the min value.
     # Defaults to the min value if not set.  
-    max: 1
+    max: 1   
   # Configure vCPU and indirectly memory resources for the application.
   # The memory assigned to the application is directly proportional to the
   # requested vCPU number multiplied by 4. For example, if cpu is set to 1, 4Gi
@@ -64,7 +64,7 @@ app:
 
   # Set the name of the custom domain for the application.
   #host: my_custom_domain.io
-
+    
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service
   # instance or by providing the name and type of the service instance. The
