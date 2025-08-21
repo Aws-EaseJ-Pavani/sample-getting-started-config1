@@ -71,5 +71,5 @@ app:
   # preferred way is to provide the crn value as the service instance names
   # can change and might not be unique.
   services:
-    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-091c4b06e59cf974b
+    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-01f2a3b6a731f382b
       #  type: db2
