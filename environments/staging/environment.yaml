@@ -68,7 +68,7 @@ app:
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service
   # instance or by providing the name and type of the service instance. The
-  # preferred way is to provide the crn value as the service instance names
+  # preferred way is to provide the crn value as the service instance names 
   # can change and might not be unique. 
   services:
     - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef
