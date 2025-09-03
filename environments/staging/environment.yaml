@@ -63,7 +63,7 @@ app:
   #java: 17
 
   # Set the name of the custom domain for the application.
-  #host: my_custom_domain.io
+  #host: my_custom_domain.io  
     
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service
@@ -71,5 +71,5 @@ app:
   # preferred way is to provide the crn value as the service instance names 
   # can change and might not be unique. 
   services:
-    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-0a330f4aad4c4d7d4
+    - servicename: com.amazonaws.vpce.us-east-1.vpce-svc-0b45e222d19c556ef
       #  type: db2
