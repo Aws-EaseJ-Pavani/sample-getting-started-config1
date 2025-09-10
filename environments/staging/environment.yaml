@@ -11,7 +11,7 @@ app:
   # "Deploy, and run" scenario.
   # maven: 
   #   groupId: org.apache.commons
-  #   artifactId: commons-csv 
+  #   artifactId: commons-csv   
   #   version: 1.14.1   
   #   type: jar
   # Set minimum and maximum number of instances of the application.
